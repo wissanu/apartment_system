@@ -32,7 +32,7 @@ Now, install composer.
 
 How to use composer command?
 
-* [x] : php /usr/bin/composer.phar
+* [x] : php /usr/local/bin/composer.phar
 
 
 # progress
