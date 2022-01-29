@@ -13,11 +13,11 @@ This will output the path to the default PHP install which comes preinstalled by
 
 * [x] : `/usr/bin/php`
 
-Now, we just need to swap this over to the PHP that is installed with XAMPP, which is located at /Applications/XAMPP/bin
+Now, we just need to swap this over to the PHP that is installed with XAMPP, which is located at `/Applications/XAMPP/bin`
 
 * [x] : `vim ~/.bash_profile`
 
-Type i and then paste the following at the top of the file:
+Type `i` and then paste the following at the top of the file:
 
 * [x] : `export PATH=/Applications/XAMPP/bin:$PATH`
 
