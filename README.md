@@ -7,32 +7,32 @@
 
 Find out what version of PHP is running
 
-* [x] : which php
+* [x] : `which php`
 
 This will output the path to the default PHP install which comes preinstalled by Mac OS X, by default
 
-* [x] : /usr/bin/php
+* [x] : `/usr/bin/php`
 
 Now, we just need to swap this over to the PHP that is installed with XAMPP, which is located at /Applications/XAMPP/bin
 
-* [x] : vim ~/.bash_profile
+* [x] : `vim ~/.bash_profile`
 
 Type i and then paste the following at the top of the file:
 
-* [x] : export PATH=/Applications/XAMPP/bin:$PATH
+* [x] : `export PATH=/Applications/XAMPP/bin:$PATH`
 
-Hit ESC, Type :wq, and hit Enter
+Hit `ESC`, Type `:wq`, and hit `Enter`
 
-In Terminal, run source ~/.bash_profile
+In Terminal, run `source ~/.bash_profile`
 
 In Terminal, type in which php again and look for the updated string. If everything was successful, It should output the new path to XAMPP PHP install.
 
 Now, install composer.
-* [x] : curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
+* [x] : `curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin`
 
 How to use composer command?
 
-* [x] : php /usr/local/bin/composer.phar
+* [x] : `php /usr/local/bin/composer.phar`
 
 
 # progress
